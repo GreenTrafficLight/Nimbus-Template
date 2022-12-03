@@ -1,0 +1,46 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EMissionCondition_AzimuthOfDegrees.generated.h"
+
+UENUM(BlueprintType)
+enum class EMissionCondition_AzimuthOfDegrees : uint8 {
+    None,
+    Degrees_0,
+    Degrees_10,
+    Degrees_20,
+    Degrees_30,
+    Degrees_40,
+    Degrees_50,
+    Degrees_60,
+    Degrees_70,
+    Degrees_80,
+    Degrees_90,
+    Degrees_100,
+    Degrees_110,
+    Degrees_120,
+    Degrees_130,
+    Degrees_140,
+    Degrees_150,
+    Degrees_160,
+    Degrees_170,
+    Degrees_180,
+    Degrees_190,
+    Degrees_200,
+    Degrees_210,
+    Degrees_220,
+    Degrees_230,
+    Degrees_240,
+    Degrees_250,
+    Degrees_260,
+    Degrees_270,
+    Degrees_280,
+    Degrees_290,
+    Degrees_300,
+    Degrees_310,
+    Degrees_320,
+    Degrees_330,
+    Degrees_340,
+    Degrees_350,
+    EMissionCondition_MAX UMETA(Hidden),
+};
+

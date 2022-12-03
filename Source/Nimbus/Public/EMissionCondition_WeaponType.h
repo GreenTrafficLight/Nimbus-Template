@@ -1,0 +1,47 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EMissionCondition_WeaponType.generated.h"
+
+UENUM(BlueprintType)
+enum class EMissionCondition_WeaponType : uint8 {
+    None,
+    Gun,
+    NormalMissile,
+    SpecialWeapon,
+    SPW_SAAM,
+    SPW_AirToAir,
+    SPW_AirToGround,
+    Missile,
+    LongRangeMissile,
+    Bomb,
+    SPW_LASM,
+    SPW_LAGM,
+    SPW_EML,
+    SPW_UAV,
+    SPW_HPAA,
+    SPW_4AAM,
+    SPW_6AAM,
+    SPW_HVAA,
+    SPW_HCAA,
+    SPW_UGB,
+    SPW_GPB,
+    CIWS,
+    SPW_4AGM,
+    SPW_QAAM,
+    SPW_8AAM,
+    SPW_LAAM,
+    SPW_SASM,
+    SPW_MPBM,
+    SPW_IEWS,
+    SPW_FAEB,
+    SPW_LaserWeapon,
+    SPW_ClusterChildBomb,
+    SPW_GuidedBomb,
+    SPW_MultiLockonMissile,
+    SPW_Rocket,
+    SPW_LACM,
+    SPW_ADMM,
+    SPW_MSTM,
+    EMissionCondition_MAX UMETA(Hidden),
+};
+
