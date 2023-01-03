@@ -24,10 +24,10 @@
 /wd4838
 /w44668
 /I "D:\Program Files\Epic Games\UE_4.18\Engine\Source"
-/I "E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\CustomKeyMouse\Source"
-/I "E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\CustomKeyMouse\Source\CustomKeyMouse\Public"
-/I "E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\CustomKeyMouse\Intermediate\Build\Win64\UE4Editor\Inc\CustomKeyMouse"
-/I "E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\CustomKeyMouse\Source\CustomKeyMouse"
+/I "E:\MODDING\_Ace Combat 7\_Template Project\_Templates\Nimbus-Template\Plugins\CustomKeyMouse\Source"
+/I "E:\MODDING\_Ace Combat 7\_Template Project\_Templates\Nimbus-Template\Plugins\CustomKeyMouse\Source\CustomKeyMouse\Public"
+/I "E:\MODDING\_Ace Combat 7\_Template Project\_Templates\Nimbus-Template\Plugins\CustomKeyMouse\Intermediate\Build\Win64\UE4Editor\Inc\CustomKeyMouse"
+/I "E:\MODDING\_Ace Combat 7\_Template Project\_Templates\Nimbus-Template\Plugins\CustomKeyMouse\Source\CustomKeyMouse"
 /I "D:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public"
 /I "D:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "D:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Async"
@@ -360,9 +360,9 @@
 /FI"D:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"D:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"D:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\CustomKeyMouse\Intermediate\Build\Win64\UE4Editor\Development\CustomKeyMouse\Module.CustomKeyMouse.cpp"
-/FI"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\CustomKeyMouse\Intermediate\Build\Win64\UE4Editor\Development\CustomKeyMouse\Definitions.CustomKeyMouse.h"
-/Fo"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\CustomKeyMouse\Intermediate\Build\Win64\UE4Editor\Development\CustomKeyMouse\Module.CustomKeyMouse.cpp.obj"
+"E:\MODDING\_Ace Combat 7\_Template Project\_Templates\Nimbus-Template\Plugins\CustomKeyMouse\Intermediate\Build\Win64\UE4Editor\Development\CustomKeyMouse\Module.CustomKeyMouse.cpp"
+/FI"E:\MODDING\_Ace Combat 7\_Template Project\_Templates\Nimbus-Template\Plugins\CustomKeyMouse\Intermediate\Build\Win64\UE4Editor\Development\CustomKeyMouse\Definitions.CustomKeyMouse.h"
+/Fo"E:\MODDING\_Ace Combat 7\_Template Project\_Templates\Nimbus-Template\Plugins\CustomKeyMouse\Intermediate\Build\Win64\UE4Editor\Development\CustomKeyMouse\Module.CustomKeyMouse.cpp.obj"
 /TP
 /GR-
 /W4

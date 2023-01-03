@@ -23,10 +23,10 @@
 /wd4838
 /w44668
 /I "D:\Program Files\Epic Games\UE_4.18\Engine\Source"
-/I "E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\Runtime\ImmediatePhysics\Source"
-/I "E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\Runtime\ImmediatePhysics\Source\ImmediatePhysics\Public"
-/I "E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\Runtime\ImmediatePhysics\Intermediate\Build\Win64\UE4Editor\Inc\ImmediatePhysics"
-/I "E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\Runtime\ImmediatePhysics\Source\ImmediatePhysics"
+/I "E:\MODDING\_Ace Combat 7\_Template Project\_Templates\Nimbus-Template\Plugins\EnginePlugins\Runtime\ImmediatePhysics\Source"
+/I "E:\MODDING\_Ace Combat 7\_Template Project\_Templates\Nimbus-Template\Plugins\EnginePlugins\Runtime\ImmediatePhysics\Source\ImmediatePhysics\Public"
+/I "E:\MODDING\_Ace Combat 7\_Template Project\_Templates\Nimbus-Template\Plugins\EnginePlugins\Runtime\ImmediatePhysics\Intermediate\Build\Win64\UE4Editor\Inc\ImmediatePhysics"
+/I "E:\MODDING\_Ace Combat 7\_Template Project\_Templates\Nimbus-Template\Plugins\EnginePlugins\Runtime\ImmediatePhysics\Source\ImmediatePhysics"
 /I "D:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\AnimGraphRuntime\Public"
 /I "D:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\AnimGraphRuntime\Public\AnimNodes"
 /I "D:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\AnimGraphRuntime\Public\AnimNotifies"
@@ -369,9 +369,9 @@
 /FI"D:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"D:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"D:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\Runtime\ImmediatePhysics\Intermediate\Build\Win64\UE4Editor\Development\ImmediatePhysics\Module.ImmediatePhysics.gen.cpp"
-/FI"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\Runtime\ImmediatePhysics\Intermediate\Build\Win64\UE4Editor\Development\ImmediatePhysics\Definitions.ImmediatePhysics.h"
-/Fo"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\Runtime\ImmediatePhysics\Intermediate\Build\Win64\UE4Editor\Development\ImmediatePhysics\Module.ImmediatePhysics.gen.cpp.obj"
+"E:\MODDING\_Ace Combat 7\_Template Project\_Templates\Nimbus-Template\Plugins\EnginePlugins\Runtime\ImmediatePhysics\Intermediate\Build\Win64\UE4Editor\Development\ImmediatePhysics\Module.ImmediatePhysics.gen.cpp"
+/FI"E:\MODDING\_Ace Combat 7\_Template Project\_Templates\Nimbus-Template\Plugins\EnginePlugins\Runtime\ImmediatePhysics\Intermediate\Build\Win64\UE4Editor\Development\ImmediatePhysics\Definitions.ImmediatePhysics.h"
+/Fo"E:\MODDING\_Ace Combat 7\_Template Project\_Templates\Nimbus-Template\Plugins\EnginePlugins\Runtime\ImmediatePhysics\Intermediate\Build\Win64\UE4Editor\Development\ImmediatePhysics\Module.ImmediatePhysics.gen.cpp.obj"
 /TP
 /GR-
 /W4
