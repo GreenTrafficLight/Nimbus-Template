@@ -197,7 +197,12 @@ void AGameObject::EnableFriendlyFireDamage(bool bEnable) {
 }
 
 AGameObject::AGameObject() {
-    this->OverlapCollision = CreateDefaultSubobject<USphereComponent>(TEXT("OverlapCollision"));
+	
+	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
+
+	this->OverlapCollision = CreateDefaultSubobject<USphereComponent>(TEXT("OverlapCollision"));
+	this->OverlapCollision->AttachTo(GetRootComponent());
+
     this->SphereCollision = NULL;
     this->GameObjectCategory = EGameObjectCategory::Category_None;
     this->GameObjectSubCategory = EGameObjectSubCategory::SubCategory_None;

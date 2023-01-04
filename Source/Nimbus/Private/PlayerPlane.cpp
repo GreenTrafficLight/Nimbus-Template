@@ -436,11 +436,20 @@ APlayerPlane::APlayerPlane() {
     this->PartsAnimationParamDataTable = NULL;
     this->PlayerParamDataTable = NULL;
     this->PlaneBodyMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("PlaneBodyMesh"));
-    this->LandingGearOnMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("LandingGearOnMesh"));
-    this->LandingGearOffMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("LandingGearOffMesh"));
-    this->RefuelOnMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("RefuelOnMesh"));
-    this->RefuelOffMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("RefuelOffMesh"));
-    this->CanopyWeatherMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CanopyWeatherMesh"));
+    
+	this->LandingGearOnMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("LandingGearOnMesh"));
+	this->LandingGearOnMesh->AttachTo(this->PlaneBodyMesh);
+    
+	this->LandingGearOffMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("LandingGearOffMesh"));
+	this->LandingGearOffMesh->AttachTo(this->PlaneBodyMesh);
+    
+	this->RefuelOnMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("RefuelOnMesh"));
+	this->RefuelOnMesh->AttachTo(this->PlaneBodyMesh);
+    
+	this->RefuelOffMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("RefuelOffMesh"));
+	this->RefuelOffMesh->AttachTo(this->PlaneBodyMesh);
+    
+	this->CanopyWeatherMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CanopyWeatherMesh"));
     this->CanopyPostProcessComponent = CreateDefaultSubobject<UPostProcessComponent>(TEXT("CanopyPostProcessComponent"));
     this->IEWSPostProcessComponent = CreateDefaultSubobject<UPostProcessComponent>(TEXT("IEWSPostProcessComponent"));
     this->VelocityVectorVRMesh = NULL;
