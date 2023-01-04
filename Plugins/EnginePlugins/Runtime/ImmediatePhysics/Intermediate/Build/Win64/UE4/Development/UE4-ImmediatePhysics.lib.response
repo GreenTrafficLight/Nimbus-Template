@@ -1,8 +1,0 @@
-/NOLOGO
-/errorReport:prompt
-/MACHINE:x64
-/SUBSYSTEM:WINDOWS
-"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\Runtime\ImmediatePhysics\Intermediate\Build\Win64\UE4\Development\ImmediatePhysics\Module.ImmediatePhysics.cpp.obj"
-"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\Runtime\ImmediatePhysics\Intermediate\Build\Win64\UE4\Development\ImmediatePhysics\Module.ImmediatePhysics.gen.cpp.obj"
-"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Intermediate\Build\Win64\UE4\Development\ImmediatePhysics\PCLaunch.rc.res"
-/OUT:"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\Runtime\ImmediatePhysics\Binaries\Win64\UE4-ImmediatePhysics.lib"

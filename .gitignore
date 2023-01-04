@@ -130,7 +130,7 @@
 # Ignore content folders
 /Content/
 /WindowsNoEditor/
-
+/Build/
 
 # Ignore intermediate folders
 Intermediate/

@@ -1,8 +1,0 @@
-/NOLOGO
-/errorReport:prompt
-/MACHINE:x64
-/SUBSYSTEM:WINDOWS
-"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\Wwise\Intermediate\Build\Win64\UE4\Development\AkAudio\Module.AkAudio.cpp.obj"
-"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\Wwise\Intermediate\Build\Win64\UE4\Development\AkAudio\Module.AkAudio.gen.cpp.obj"
-"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Intermediate\Build\Win64\UE4\Development\AkAudio\PCLaunch.rc.res"
-/OUT:"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\Wwise\Binaries\Win64\UE4-AkAudio.lib"
