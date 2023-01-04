@@ -1,5 +1,0 @@
-Discovering modules, targets and source code for project...
-While compiling E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Intermediate\Build\BuildRules\NimbusModuleRules.dll:
-ERROR: e:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Source\NimbusEditor.Target.cs(6,3) : error CS0103: Le nom 'DefaultBuildSettings' n'existe pas dans le contexte actuel
-ERROR: e:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Source\NimbusEditor.Target.cs(6,26) : error CS0103: Le nom 'BuildSettingsVersion' n'existe pas dans le contexte actuel
-ERROR: UnrealBuildTool Exception: Unable to compile source files.
