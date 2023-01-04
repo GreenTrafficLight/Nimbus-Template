@@ -1,8 +1,0 @@
-/NOLOGO
-/errorReport:prompt
-/MACHINE:x64
-/SUBSYSTEM:WINDOWS
-"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\Runtime\CriWare\CriWare\Intermediate\Build\Win64\UE4\Development\CriWareRuntime\Module.CriWareRuntime.cpp.obj"
-"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\Runtime\CriWare\CriWare\Intermediate\Build\Win64\UE4\Development\CriWareRuntime\Module.CriWareRuntime.gen.cpp.obj"
-"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Intermediate\Build\Win64\UE4\Development\CriWareRuntime\PCLaunch.rc.res"
-/OUT:"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\Runtime\CriWare\CriWare\Binaries\Win64\UE4-CriWareRuntime.lib"

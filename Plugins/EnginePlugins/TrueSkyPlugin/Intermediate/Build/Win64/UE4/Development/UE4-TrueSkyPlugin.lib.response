@@ -1,8 +1,0 @@
-/NOLOGO
-/errorReport:prompt
-/MACHINE:x64
-/SUBSYSTEM:WINDOWS
-"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\TrueSkyPlugin\Intermediate\Build\Win64\UE4\Development\TrueSkyPlugin\Module.TrueSkyPlugin.cpp.obj"
-"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\TrueSkyPlugin\Intermediate\Build\Win64\UE4\Development\TrueSkyPlugin\Module.TrueSkyPlugin.gen.cpp.obj"
-"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Intermediate\Build\Win64\UE4\Development\TrueSkyPlugin\PCLaunch.rc.res"
-/OUT:"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\EnginePlugins\TrueSkyPlugin\Binaries\Win64\UE4-TrueSkyPlugin.lib"

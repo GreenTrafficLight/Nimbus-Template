@@ -1,8 +1,0 @@
-/NOLOGO
-/errorReport:prompt
-/MACHINE:x64
-/SUBSYSTEM:WINDOWS
-"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\CustomKeyMouse\Intermediate\Build\Win64\UE4\Development\CustomKeyMouse\Module.CustomKeyMouse.cpp.obj"
-"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\CustomKeyMouse\Intermediate\Build\Win64\UE4\Development\CustomKeyMouse\Module.CustomKeyMouse.gen.cpp.obj"
-"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Intermediate\Build\Win64\UE4\Development\CustomKeyMouse\PCLaunch.rc.res"
-/OUT:"E:\MODDING\_Ace Combat 7\_Template Project\Nimbus Template\Plugins\CustomKeyMouse\Binaries\Win64\UE4-CustomKeyMouse.lib"
