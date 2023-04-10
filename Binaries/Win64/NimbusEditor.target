@@ -204,18 +204,6 @@
 			"Type": "ImportLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/EnginePlugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/EnginePlugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/EnginePlugins/Runtime/ImmediatePhysics/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-ImmediatePhysics.lib",
-			"Type": "ImportLibrary"
-		},
-		{
 			"Path": "$(ProjectDir)/Plugins/EnginePlugins/TrueSkyPlugin/Binaries/Win64/UE4Editor-TrueSkyPlugin.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -809,6 +797,36 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ExampleDeviceProfileSelector/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-ExampleDeviceProfileSelector.lib",
+			"Type": "ImportLibrary",
+			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll",
+			"Type": "DynamicLibrary",
+			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.pdb",
+			"Type": "SymbolFile",
+			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/ImmediatePhysics/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-ImmediatePhysics.lib",
+			"Type": "ImportLibrary",
+			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll",
+			"Type": "DynamicLibrary",
+			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.pdb",
+			"Type": "SymbolFile",
+			"IsPrecompiled": true
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/ImmediatePhysics/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-ImmediatePhysicsEditor.lib",
 			"Type": "ImportLibrary",
 			"IsPrecompiled": true
 		},
@@ -5461,10 +5479,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/EnginePlugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(ProjectDir)/Plugins/EnginePlugins/TrueSkyPlugin/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -5512,10 +5526,6 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/EnginePlugins/Runtime/CriWare/CriWare/CriWare.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/EnginePlugins/Runtime/ImmediatePhysics/ImmediatePhysics.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -5636,6 +5646,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/ImmediatePhysics/ImmediatePhysics.uplugin",
 			"Type": "UFS"
 		},
 		{
