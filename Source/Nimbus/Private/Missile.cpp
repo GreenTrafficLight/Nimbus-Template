@@ -3,6 +3,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "Components/PointLightComponent.h"
 #include "WeaponPassSoundComponent.h"
+#include "MissileMovementComponent.h"
 
 
 void AMissile::OnMissForceKill() {
@@ -13,6 +14,7 @@ int32 AMissile::GetTrueSkyQueryID() const {
 }
 
 AMissile::AMissile() {
+	this->WeaponMovement = CreateDefaultSubobject<UMissileMovementComponent>(TEXT("Missile Movement"));
     this->HiddenMissileMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Hidden Missile Mesh"));
     this->FireParticles = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("Fire Particles"));
     this->bUseFireLight = false;

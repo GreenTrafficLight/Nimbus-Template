@@ -1,6 +1,8 @@
 #include "Bullet.h"
+#include "WeaponMovementComponent.h"
 
 ABullet::ABullet() {
+	this->WeaponMovement = CreateDefaultSubobject<UWeaponMovementComponent>(TEXT("Bullet Movement"));
     this->EffectiveTime = -1.00f;
     this->bBulletRandomRollRotation = false;
     this->RandomInitialPosRangeFrontMin = 0;

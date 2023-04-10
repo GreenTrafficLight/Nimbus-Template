@@ -1,6 +1,8 @@
 #include "Bomb.h"
+#include "BombMovementComponent.h"
 
 ABomb::ABomb() {
+	this->WeaponMovement = CreateDefaultSubobject<UBombMovementComponent>(TEXT("Bomb Movement"));
     this->HomingDelayFromStart = 0.00f;
     this->MaxHomingAngle = 0.00f;
     this->MaxRotationAngle = 0.00f;
