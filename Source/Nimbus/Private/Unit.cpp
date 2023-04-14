@@ -167,6 +167,8 @@ void AUnit::Activate(bool bActivate) {
 }
 
 AUnit::AUnit() {
+	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
+	SetRootComponent(RootComponent);
     this->bIsMoving = false;
     this->bUsingSpecifiedFormation = false;
     this->bActivateFromStart = true;

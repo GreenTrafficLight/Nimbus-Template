@@ -2,6 +2,7 @@
 
 AAIPathPoint::AAIPathPoint() {
 	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
+	SetRootComponent(RootComponent);
     this->RadiusInMeter = 0.00f;
     this->bEnableSpeed = false;
     this->bEnableAcceleration = false;
