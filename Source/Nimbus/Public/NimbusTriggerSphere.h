@@ -5,8 +5,8 @@
 
 UCLASS(Blueprintable)
 class NIMBUS_API ANimbusTriggerSphere : public ANimbusTriggerBase {
-    GENERATED_BODY()
+	GENERATED_BODY()
 public:
-    ANimbusTriggerSphere();
+	ANimbusTriggerSphere(const FObjectInitializer & ObjectInitializer);
 };
 

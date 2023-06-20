@@ -1,7 +1,9 @@
 #include "Artillery.h"
+#include "WeaponMovementComponent.h"
 
 AArtillery::AArtillery() {
-    this->SpreadRadius = 0.00f;
-    this->TargetOffsetZ = 10.00f;
+	this->WeaponMovement = CreateDefaultSubobject<UWeaponMovementComponent>(TEXT("Artillery Movement"));
+	this->SpreadRadius = 0.00f;
+	this->TargetOffsetZ = 10.00f;
 }
 

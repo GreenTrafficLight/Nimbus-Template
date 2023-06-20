@@ -36,19 +36,19 @@ void ARadioManager::ResetPlayByPlayRadioGroupIDPostfixes_S() {
 }
 
 bool ARadioManager::RequestPlayRadioWithKeySpeaker_S(const FString& RadioGroupID, int32& RequestID, bool Condition, const AGameObject* KeySpeaker) {
-    return false;
+	return false;
 }
 
 bool ARadioManager::RequestPlayRadioWithKeySpeaker(const FString& RadioGroupID, int32& RequestID, bool Condition, const AGameObject* KeySpeaker) {
-    return false;
+	return false;
 }
 
 bool ARadioManager::RequestPlayRadio_S(const FString& RadioGroupID, int32& RequestID, bool Condition, const FString& KeySpeakerID) {
-    return false;
+	return false;
 }
 
 bool ARadioManager::RequestPlayRadio(const FString& RadioGroupID, int32& RequestID, bool Condition, const FString& KeySpeakerID) {
-    return false;
+	return false;
 }
 
 void ARadioManager::ReplaceRadioSpeakerName_S(const FString& SpeakerID, const FString& ReplaceSpeakerID) {
@@ -91,27 +91,27 @@ void ARadioManager::OnIGCEnableEvent(bool bEnabled) {
 }
 
 bool ARadioManager::IsRadioSkipEnabled_S() {
-    return false;
+	return false;
 }
 
 bool ARadioManager::IsChannelPlaying_S(ERadioManagerChannel Channel) {
-    return false;
+	return false;
 }
 
 bool ARadioManager::IsChannelPlaying(ERadioManagerChannel Channel) const {
-    return false;
+	return false;
 }
 
 bool ARadioManager::IsChannelEnabled_S(ERadioManagerChannel Channel) {
-    return false;
+	return false;
 }
 
 bool ARadioManager::IsChannelEnabled(ERadioManagerChannel Channel) const {
-    return false;
+	return false;
 }
 
 TArray<FString> ARadioManager::GetRadioGroupIDs() const {
-    return TArray<FString>();
+	return TArray<FString>();
 }
 
 void ARadioManager::EnableAllRadio_S() {
@@ -139,14 +139,16 @@ void ARadioManager::AddPlayByPlayRadioGroupIDPostfix_S(const FString& KeySpeaker
 }
 
 ARadioManager::ARadioManager() {
-    this->RadioSpeakerTable = NULL;
-    this->OverrideRadioSpeakerTable = NULL;
-    this->AutomaticSpeakerIDTable = NULL;
-    this->RadioChannels[0] = NULL;
-    this->RadioChannels[1] = NULL;
-    this->bShowRequestFailedReason = false;
-    this->bHideSubtitleOnVR = false;
-    this->SearchEnemyRadius = 80000.00f;
-    this->AllowRangeRadius = 80000.00f;
+	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
+	SetRootComponent(RootComponent);
+	this->RadioSpeakerTable = NULL;
+	this->OverrideRadioSpeakerTable = NULL;
+	this->AutomaticSpeakerIDTable = NULL;
+	this->RadioChannels[0] = NULL;
+	this->RadioChannels[1] = NULL;
+	this->bShowRequestFailedReason = false;
+	this->bHideSubtitleOnVR = false;
+	this->SearchEnemyRadius = 80000.00f;
+	this->AllowRangeRadius = 80000.00f;
 }
 

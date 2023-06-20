@@ -4,7 +4,7 @@
 class AActor;
 
 bool ANimbusTriggerBase::IsNimbusOverlappingActor(const AActor* Other) const {
-    return false;
+	return false;
 }
 
 void ANimbusTriggerBase::GetNimbusOverlappingActors(TArray<AActor*>& OverlappingActors, TSubclassOf<AActor> ClassFilter) const {
@@ -13,10 +13,9 @@ void ANimbusTriggerBase::GetNimbusOverlappingActors(TArray<AActor*>& Overlapping
 void ANimbusTriggerBase::EnableTriggerVolume(bool bEnable) {
 }
 
-ANimbusTriggerBase::ANimbusTriggerBase() {
-    this->bCheckPlayer = false;
-    this->bCheckAlly = false;
-    this->bCheckEnemy = false;
-    this->GameMode = NULL;
+ANimbusTriggerBase::ANimbusTriggerBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
+	this->bCheckPlayer = false;
+	this->bCheckAlly = false;
+	this->bCheckEnemy = false;
+	this->GameMode = NULL;
 }
-
