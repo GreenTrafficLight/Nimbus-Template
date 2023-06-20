@@ -2,6 +2,6 @@
 	"BuildId": "3709383",
 	"Modules": 
 	{
-		"CriWareRuntime": "UE4Editor-CriWareRuntime-9322.dll"
+		"CriWareRuntime": "UE4Editor-CriWareRuntime.dll"
 	}
 }
