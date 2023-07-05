@@ -46,6 +46,7 @@ AWeaponBase::AWeaponBase() {
     this->OwningGameObject = NULL;
     this->OwnerWeapon = NULL;
     this->StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Static Mesh"));
+	SetRootComponent(this->StaticMesh);
     this->AnimationMesh = NULL;
     this->AnimationEndStaticMesh = NULL;
     this->WeaponMovement = NULL;
