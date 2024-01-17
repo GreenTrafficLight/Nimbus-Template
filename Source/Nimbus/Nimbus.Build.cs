@@ -9,6 +9,7 @@ public class Nimbus : ModuleRules {
             "AkAudio",
             "AnimGraphRuntime",
             "AnimationCore",
+            "BlueprintGraph",
             "Core",
             "CoreUObject",
             "CriWareRuntime",
@@ -22,6 +23,7 @@ public class Nimbus : ModuleRules {
             "Slate",
             "SlateCore",
             "UMG",
+            "UnrealEd",
             "RenderCore",
         });
     }

@@ -8,11 +8,9 @@ UCLASS(Blueprintable)
 class NIMBUS_API UMissionVaraibleDelegateBinding : public UDynamicBlueprintBinding {
     GENERATED_BODY()
 public:
-private:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<FBlueprintMissionVariableDelegateBinding> MissionVariableDelegateBindings;
     
-public:
     UMissionVaraibleDelegateBinding();
 };
 
