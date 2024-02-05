@@ -7,9 +7,9 @@ UCLASS()
 class NIMBUS_API UK2Node_MissionVariableEvent : public UK2Node_Event
 {
 	GENERATED_UCLASS_BODY()
-	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "YourCategory")
-	FVariableCondition VariableCondition;
+
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "YourCategory")
+		FVariableCondition VariableCondition;
 
 	//~ Begin UObject Interface
 	virtual void Serialize(FArchive& Ar) override;
@@ -31,4 +31,8 @@ class NIMBUS_API UK2Node_MissionVariableEvent : public UK2Node_Event
 public:
 	/** Constructing FText strings can be costly, so we cache the node's tooltip */
 	FNodeTextCache CachedTooltip;
+
+private:
+	static int32 Counter;
+
 };

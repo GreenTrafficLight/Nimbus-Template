@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #include "K2Node_MissionVariableEvent.h"
 
 #include "CompilerResultsLog.h"
@@ -11,6 +9,8 @@
 #include "MissionVaraibleDelegateBinding.h"
 
 #define LOCTEXT_NAMESPACE "UK2Node_MissionVariableEvent"
+
+//int32 UK2Node_MissionVariableEvent::Counter = 0;
 
 UK2Node_MissionVariableEvent::UK2Node_MissionVariableEvent(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
@@ -26,6 +26,7 @@ void UK2Node_MissionVariableEvent::Initialize(const FVariableCondition InVariabl
 {
 	VariableCondition = InVariableCondition;
 	CustomFunctionName = FName(*FString::Printf(TEXT("MissionVariableEvt_%s"), *GetName()));
+	//CustomFunctionName = FName(*FString::Printf(TEXT("MissionVariableEvt_K2Node_MissionVariableEvent_%d"), Counter));
 }
 
 FText UK2Node_MissionVariableEvent::GetNodeTitle(ENodeTitleType::Type TitleType) const
@@ -64,7 +65,9 @@ void UK2Node_MissionVariableEvent::RegisterDynamicBinding(UDynamicBlueprintBindi
 
 	FBlueprintMissionVariableDelegateBinding Binding;
 	Binding.VariableCondition = VariableCondition;
+	//Binding.FunctionNameToBind = FName(*FString::Printf(TEXT("MissionVariableEvt_K2Node_MissionVariableEvent_%d"), MissionVaraibleBindingObject->MissionVariableDelegateBindings.Num()));
 	Binding.FunctionNameToBind = CustomFunctionName;
+	//Counter = MissionVaraibleBindingObject->MissionVariableDelegateBindings.Num();
 
 	MissionVaraibleBindingObject->MissionVariableDelegateBindings.Add(Binding);
 }
