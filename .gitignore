@@ -128,7 +128,6 @@
 
 
 # Ignore content folders
-/Content/
 /WindowsNoEditor/
 /Build/
 
