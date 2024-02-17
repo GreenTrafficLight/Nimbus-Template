@@ -17,8 +17,6 @@
 *
 !*/
 
-!*.uasset
-
 # C/C++ source files
 !*.c
 !*.cc
@@ -129,9 +127,8 @@
 *.pdb
 
 
-!/Content/
-
 # Ignore content folders
+/Content/
 /WindowsNoEditor/
 /Build/
 
