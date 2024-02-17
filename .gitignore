@@ -17,6 +17,8 @@
 *
 !*/
 
+!*.uasset
+
 # C/C++ source files
 !*.c
 !*.cc
@@ -126,6 +128,8 @@
 !/Plugins/**/Binaries/Win64/*
 *.pdb
 
+
+!/Content/
 
 # Ignore content folders
 /WindowsNoEditor/
